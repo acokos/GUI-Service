@@ -12,6 +12,35 @@
   background-color: white;
   border-radius: 1%;
 }
+input[type=text] {
+  margin-top: 8px;
+  padding: 8px;
+  width: 50%;
+  background-color: rgba(0,0,0,0.03);
+  border-radius: 1%;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px solid rgba(0,0,0,0.1);
+}
+
+textarea{
+  margin-top: 8px;
+  padding: 8px;
+  width: 50%;
+  background-color: rgba(0,0,0,0.03);
+  border-radius: 1%;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  outline: none;
+}
+
+textarea:focus{
+  border: 2px solid rgba(0,0,0,0.1);
+}
 
 #nameinput {
   padding-top: 32px;
