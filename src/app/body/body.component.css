@@ -1,0 +1,24 @@
+#inhalt {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-right: 32px;
+  position: relative;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 1000px;
+  background-color: white;
+  border-radius: 1%;
+}
+
+#nameinput {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+#parainput {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
