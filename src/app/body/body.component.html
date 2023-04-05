@@ -4,17 +4,52 @@
 
   <h3>Please enter</h3>
 
-  <div id = nameinput>
-    <label for="fname">Name of GUI:</label>
+  <div class = nameinput>
+    <label for="fname">Name of GUI</label>
     <br>
     <input type="text" id="fname" name="fname">
   </div>
 
-  <div id = parainput>
-    <label for="fname">Parameters:</label>
+  <div class = parainput>
+    <label>Description</label>
     <br>
     <textarea name="message" rows="10" cols="30">
     </textarea>
+  </div>
+
+  <div class = nameinput>
+    <label for="fowner">Owner Name</label>
+    <br>
+    <input type="text" id="fowner" name="fname">
+  </div>
+
+  <div class = nameinput>
+    <label for="fservice">GUI Service</label>
+    <br>
+    <input type="text" id="fservice" name="fname">
+  </div>
+
+  <div class = parainput>
+    <label>Parameters</label>
+    <br>
+    <textarea name="mpara" rows="10" cols="30">
+    </textarea>
+  </div>
+
+  <div>
+    <label>Parameters</label> <br>
+    <input type="checkbox" id="para1" name="vehicle1" value="Bike">
+    <label for="para1"> Parameter 1</label><br>
+    <input type="checkbox" id="para2" name="vehicle2" value="Car">
+    <label for="para2"> Parameter 2</label><br>
+    <input type="checkbox" id="para3" name="vehicle3" value="Boat">
+    <label for="para3"> Parameter 3</label><br>
+  </div>
+
+  <div id = mockupload>
+    <label>Upload a MockUp </label> <br>
+    <p>Here you can upload a MockUp...</p>
+    <button id = button>Upload</button>
   </div>
 
 </div>

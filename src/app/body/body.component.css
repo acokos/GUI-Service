@@ -4,13 +4,13 @@
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
-  top: 50px;
+  top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 1000px;
-  background-color: white;
-  border-radius: 1%;
+  height: 5000px;
+  background-color: rgba(0,0,0,0.009);
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.05);
 }
 input[type=text] {
   margin-top: 8px;
@@ -42,12 +42,36 @@ textarea:focus{
   border: 2px solid rgba(0,0,0,0.1);
 }
 
-#nameinput {
+.nameinput {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-#parainput {
+.parainput {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+#mockupload {
+  width: 52%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  height: fit-content;
+}
+
+#button {
+  position: relative;
+  top: -60px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: lightblue;
+  float: right;
+}
+
+#button:hover{
+  background-color: steelblue;
+  cursor: pointer;
+  color:white;
 }
